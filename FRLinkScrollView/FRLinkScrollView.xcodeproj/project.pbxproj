@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0402E1D7204E41DD003DE2CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0402E1D6204E41DD003DE2CA /* AppDelegate.m */; };
+		0402E1DA204E41DD003DE2CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0402E1D9204E41DD003DE2CA /* ViewController.m */; };
+		0402E1DD204E41DD003DE2CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0402E1DB204E41DD003DE2CA /* Main.storyboard */; };
+		0402E1DF204E41DD003DE2CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0402E1DE204E41DD003DE2CA /* Assets.xcassets */; };
+		0402E1E2204E41DD003DE2CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0402E1E0204E41DD003DE2CA /* LaunchScreen.storyboard */; };
+		0402E1E5204E41DD003DE2CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0402E1E4204E41DD003DE2CA /* main.m */; };
+		0402E1FD204E41F1003DE2CA /* FRLinkScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0402E1EC204E41F1003DE2CA /* FRLinkScrollViewController.m */; };
+		0402E1FE204E41F1003DE2CA /* FRSlideMenuCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0402E1EF204E41F1003DE2CA /* FRSlideMenuCollectionViewCell.m */; };
+		0402E1FF204E41F1003DE2CA /* FRPlist.m in Sources */ = {isa = PBXBuildFile; fileRef = 0402E1F0204E41F1003DE2CA /* FRPlist.m */; };
+		0402E200204E41F1003DE2CA /* addMenu_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0402E1F1204E41F1003DE2CA /* addMenu_highlighted@2x.png */; };
+		0402E201204E41F1003DE2CA /* FRSlideHorizontalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0402E1F2204E41F1003DE2CA /* FRSlideHorizontalLayout.m */; };
+		0402E202204E41F1003DE2CA /* addMenu_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0402E1F8204E41F1003DE2CA /* addMenu_normal@2x.png */; };
+		0402E203204E41F1003DE2CA /* FRSlideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0402E1F9204E41F1003DE2CA /* FRSlideMenuController.m */; };
+		0402E204204E41F1003DE2CA /* FRSlideMenuTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0402E1FA204E41F1003DE2CA /* FRSlideMenuTitleLabel.m */; };
+		0402E205204E41F1003DE2CA /* deleteItem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0402E1FB204E41F1003DE2CA /* deleteItem@2x.png */; };
+		0402E206204E41F1003DE2CA /* hiddenMenuBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0402E1FC204E41F1003DE2CA /* hiddenMenuBtn@2x.png */; };
+		0402E20B204E4209003DE2CA /* NewsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0402E208204E4208003DE2CA /* NewsListViewController.m */; };
+		0402E20C204E4209003DE2CA /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0402E20A204E4208003DE2CA /* NewsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0402E1D2204E41DD003DE2CA /* FRLinkScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRLinkScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0402E1D5204E41DD003DE2CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0402E1D6204E41DD003DE2CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0402E1D8204E41DD003DE2CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0402E1D9204E41DD003DE2CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0402E1DC204E41DD003DE2CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0402E1DE204E41DD003DE2CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0402E1E1204E41DD003DE2CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0402E1E3204E41DD003DE2CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0402E1E4204E41DD003DE2CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0402E1EC204E41F1003DE2CA /* FRLinkScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRLinkScrollViewController.m; sourceTree = "<group>"; };
+		0402E1ED204E41F1003DE2CA /* FRLinkScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRLinkScrollViewController.h; sourceTree = "<group>"; };
+		0402E1EF204E41F1003DE2CA /* FRSlideMenuCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRSlideMenuCollectionViewCell.m; sourceTree = "<group>"; };
+		0402E1F0204E41F1003DE2CA /* FRPlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPlist.m; sourceTree = "<group>"; };
+		0402E1F1204E41F1003DE2CA /* addMenu_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addMenu_highlighted@2x.png"; sourceTree = "<group>"; };
+		0402E1F2204E41F1003DE2CA /* FRSlideHorizontalLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRSlideHorizontalLayout.m; sourceTree = "<group>"; };
+		0402E1F3204E41F1003DE2CA /* FRSlideMenuTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRSlideMenuTitleLabel.h; sourceTree = "<group>"; };
+		0402E1F4204E41F1003DE2CA /* FRSlideMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRSlideMenuController.h; sourceTree = "<group>"; };
+		0402E1F5204E41F1003DE2CA /* FRPlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPlist.h; sourceTree = "<group>"; };
+		0402E1F6204E41F1003DE2CA /* FRSlideMenuCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRSlideMenuCollectionViewCell.h; sourceTree = "<group>"; };
+		0402E1F7204E41F1003DE2CA /* FRSlideHorizontalLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRSlideHorizontalLayout.h; sourceTree = "<group>"; };
+		0402E1F8204E41F1003DE2CA /* addMenu_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addMenu_normal@2x.png"; sourceTree = "<group>"; };
+		0402E1F9204E41F1003DE2CA /* FRSlideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRSlideMenuController.m; sourceTree = "<group>"; };
+		0402E1FA204E41F1003DE2CA /* FRSlideMenuTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRSlideMenuTitleLabel.m; sourceTree = "<group>"; };
+		0402E1FB204E41F1003DE2CA /* deleteItem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deleteItem@2x.png"; sourceTree = "<group>"; };
+		0402E1FC204E41F1003DE2CA /* hiddenMenuBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hiddenMenuBtn@2x.png"; sourceTree = "<group>"; };
+		0402E207204E4208003DE2CA /* NewsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsListViewController.h; sourceTree = "<group>"; };
+		0402E208204E4208003DE2CA /* NewsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsListViewController.m; sourceTree = "<group>"; };
+		0402E209204E4208003DE2CA /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		0402E20A204E4208003DE2CA /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0402E1CF204E41DD003DE2CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0402E1C9204E41DD003DE2CA = {
+			isa = PBXGroup;
+			children = (
+				0402E1D4204E41DD003DE2CA /* FRLinkScrollView */,
+				0402E1D3204E41DD003DE2CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0402E1D3204E41DD003DE2CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0402E1D2204E41DD003DE2CA /* FRLinkScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0402E1D4204E41DD003DE2CA /* FRLinkScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				0402E207204E4208003DE2CA /* NewsListViewController.h */,
+				0402E208204E4208003DE2CA /* NewsListViewController.m */,
+				0402E209204E4208003DE2CA /* NewsViewController.h */,
+				0402E20A204E4208003DE2CA /* NewsViewController.m */,
+				0402E1D5204E41DD003DE2CA /* AppDelegate.h */,
+				0402E1D6204E41DD003DE2CA /* AppDelegate.m */,
+				0402E1D8204E41DD003DE2CA /* ViewController.h */,
+				0402E1D9204E41DD003DE2CA /* ViewController.m */,
+				0402E1EB204E41F1003DE2CA /* FRLinkScrollViewController */,
+				0402E1EE204E41F1003DE2CA /* FRSlideMenuController */,
+				0402E1DB204E41DD003DE2CA /* Main.storyboard */,
+				0402E1DE204E41DD003DE2CA /* Assets.xcassets */,
+				0402E1E0204E41DD003DE2CA /* LaunchScreen.storyboard */,
+				0402E1E3204E41DD003DE2CA /* Info.plist */,
+				0402E1E4204E41DD003DE2CA /* main.m */,
+			);
+			path = FRLinkScrollView;
+			sourceTree = "<group>";
+		};
+		0402E1EB204E41F1003DE2CA /* FRLinkScrollViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0402E1EC204E41F1003DE2CA /* FRLinkScrollViewController.m */,
+				0402E1ED204E41F1003DE2CA /* FRLinkScrollViewController.h */,
+			);
+			path = FRLinkScrollViewController;
+			sourceTree = "<group>";
+		};
+		0402E1EE204E41F1003DE2CA /* FRSlideMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				0402E1EF204E41F1003DE2CA /* FRSlideMenuCollectionViewCell.m */,
+				0402E1F0204E41F1003DE2CA /* FRPlist.m */,
+				0402E1F1204E41F1003DE2CA /* addMenu_highlighted@2x.png */,
+				0402E1F2204E41F1003DE2CA /* FRSlideHorizontalLayout.m */,
+				0402E1F3204E41F1003DE2CA /* FRSlideMenuTitleLabel.h */,
+				0402E1F4204E41F1003DE2CA /* FRSlideMenuController.h */,
+				0402E1F5204E41F1003DE2CA /* FRPlist.h */,
+				0402E1F6204E41F1003DE2CA /* FRSlideMenuCollectionViewCell.h */,
+				0402E1F7204E41F1003DE2CA /* FRSlideHorizontalLayout.h */,
+				0402E1F8204E41F1003DE2CA /* addMenu_normal@2x.png */,
+				0402E1F9204E41F1003DE2CA /* FRSlideMenuController.m */,
+				0402E1FA204E41F1003DE2CA /* FRSlideMenuTitleLabel.m */,
+				0402E1FB204E41F1003DE2CA /* deleteItem@2x.png */,
+				0402E1FC204E41F1003DE2CA /* hiddenMenuBtn@2x.png */,
+			);
+			path = FRSlideMenuController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0402E1D1204E41DD003DE2CA /* FRLinkScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0402E1E8204E41DD003DE2CA /* Build configuration list for PBXNativeTarget "FRLinkScrollView" */;
+			buildPhases = (
+				0402E1CE204E41DD003DE2CA /* Sources */,
+				0402E1CF204E41DD003DE2CA /* Frameworks */,
+				0402E1D0204E41DD003DE2CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FRLinkScrollView;
+			productName = FRLinkScrollView;
+			productReference = 0402E1D2204E41DD003DE2CA /* FRLinkScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0402E1CA204E41DD003DE2CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = fanrongQu;
+				TargetAttributes = {
+					0402E1D1204E41DD003DE2CA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0402E1CD204E41DD003DE2CA /* Build configuration list for PBXProject "FRLinkScrollView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0402E1C9204E41DD003DE2CA;
+			productRefGroup = 0402E1D3204E41DD003DE2CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0402E1D1204E41DD003DE2CA /* FRLinkScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0402E1D0204E41DD003DE2CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0402E205204E41F1003DE2CA /* deleteItem@2x.png in Resources */,
+				0402E1E2204E41DD003DE2CA /* LaunchScreen.storyboard in Resources */,
+				0402E200204E41F1003DE2CA /* addMenu_highlighted@2x.png in Resources */,
+				0402E206204E41F1003DE2CA /* hiddenMenuBtn@2x.png in Resources */,
+				0402E202204E41F1003DE2CA /* addMenu_normal@2x.png in Resources */,
+				0402E1DF204E41DD003DE2CA /* Assets.xcassets in Resources */,
+				0402E1DD204E41DD003DE2CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0402E1CE204E41DD003DE2CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0402E1DA204E41DD003DE2CA /* ViewController.m in Sources */,
+				0402E204204E41F1003DE2CA /* FRSlideMenuTitleLabel.m in Sources */,
+				0402E1FE204E41F1003DE2CA /* FRSlideMenuCollectionViewCell.m in Sources */,
+				0402E201204E41F1003DE2CA /* FRSlideHorizontalLayout.m in Sources */,
+				0402E1FF204E41F1003DE2CA /* FRPlist.m in Sources */,
+				0402E20C204E4209003DE2CA /* NewsViewController.m in Sources */,
+				0402E203204E41F1003DE2CA /* FRSlideMenuController.m in Sources */,
+				0402E1E5204E41DD003DE2CA /* main.m in Sources */,
+				0402E1D7204E41DD003DE2CA /* AppDelegate.m in Sources */,
+				0402E1FD204E41F1003DE2CA /* FRLinkScrollViewController.m in Sources */,
+				0402E20B204E4209003DE2CA /* NewsListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0402E1DB204E41DD003DE2CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0402E1DC204E41DD003DE2CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0402E1E0204E41DD003DE2CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0402E1E1204E41DD003DE2CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0402E1E6204E41DD003DE2CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0402E1E7204E41DD003DE2CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0402E1E9204E41DD003DE2CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FRLinkScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FR.FRLinkScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0402E1EA204E41DD003DE2CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FRLinkScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FR.FRLinkScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0402E1CD204E41DD003DE2CA /* Build configuration list for PBXProject "FRLinkScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0402E1E6204E41DD003DE2CA /* Debug */,
+				0402E1E7204E41DD003DE2CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0402E1E8204E41DD003DE2CA /* Build configuration list for PBXNativeTarget "FRLinkScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0402E1E9204E41DD003DE2CA /* Debug */,
+				0402E1EA204E41DD003DE2CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0402E1CA204E41DD003DE2CA /* Project object */;
+}
